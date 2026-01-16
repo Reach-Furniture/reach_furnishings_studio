@@ -59,9 +59,9 @@ const Articles: React.FC = () => {
       <HeroSection />
       
       <div className="bg-gray-200 m-4 py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-primary">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-primary">
           Articles
-        </h1>
+        </h2>
       </div>
 
       <section className="py-12 px-4 bg-white">
@@ -79,7 +79,7 @@ const Articles: React.FC = () => {
             >
               <img
                 src={item.thumbnail}
-                alt={item.title}
+                alt={`REACH Furnishings Studio article thumbnail for ${item.title}`}
                 className="w-full h-auto rounded shadow"
               />
             </a>

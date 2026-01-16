@@ -26,7 +26,7 @@ const CaseGallery = () => {
             >
               <img
                 src={item.thumbnail}
-                alt={item.title}
+                alt={`REACH Furnishings Studio case thumbnail for ${item.title}`}
                 className="w-full h-auto rounded shadow"
               />
             </a>
