@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="w-full bg-white">
       {/* Hidden H1 for SEO – no UI change */}
       <h1 className="sr-only">
-        REACH Furnishings Studio – 3D Furniture Design & Visualization Software
+        REACH Furnishings Studio – 3D Furnishings Design & Visualization Software
       </h1>
 
       {/* Hero Wrapper */}
